@@ -122,20 +122,8 @@ highway-delite/
 │   └── nodemon.json
 ├── frontend/
 │   ├── src/
-│   │   ├── components/
-│   │   │   ├── Header.tsx
-│   │   │   ├── ExperienceCard.tsx
-│   │   │   ├── SearchBar.tsx
-│   │   │   └── LoadingSpinner.tsx
-│   │   ├── pages/
-│   │   │   ├── HomePage.tsx
-│   │   │   ├── DetailsPage.tsx
-│   │   │   ├── CheckoutPage.tsx
-│   │   │   └── ResultPage.tsx
-│   │   ├── services/
-│   │   │   └── api.ts                # API client
-│   │   ├── types/
-│   │   │   └── index.ts              # TypeScript interfaces
+│   │   ├── assets/
+│   │   │   ├── react.svg
 │   │   ├── App.tsx
 │   │   ├── main.tsx
 │   │   └── index.css
@@ -145,7 +133,6 @@ highway-delite/
 │   ├── vite.config.ts
 │   ├── tailwind.config.js
 │   └── index.html
-├── .gitignore
 └── README.md
 ```
 
